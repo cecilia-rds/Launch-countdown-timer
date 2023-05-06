@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img alt="coundown" src="/assets/active-states.jpg" width="100%">
+  <img alt="coundown" src="/assets/img/active-states.jpg" width="100%">
 </p>
 
 
