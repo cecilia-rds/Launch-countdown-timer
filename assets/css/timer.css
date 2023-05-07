@@ -1,0 +1,36 @@
+.timer {
+    display: inline-block;
+    padding: 4rem 1rem;
+    margin-bottom: 2rem;
+    
+}
+.border {
+    background-color: hsl(236, 21%, 26%);
+    border-radius: 0.3rem;
+    width: 170px;
+    height: 85px;
+}
+.border-top {
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-radius: 0.3rem;
+    margin-bottom: 0.7px;
+}
+.border-bottom {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.4rem;  
+}
+.cont {
+    color: var(--soft-red);
+    font-size: 2.6rem;
+    padding-top: 1.2rem;
+    font-weight: 700;
+}
+.legend {
+    color: rgb(170, 167, 167);
+    font-size: 0.5rem;
+    margin-top: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
