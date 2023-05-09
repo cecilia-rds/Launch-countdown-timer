@@ -1,0 +1,36 @@
+:root{
+    --font: 'Red Hat Text', sans-serif;;
+    --rayish-blue: hsl(237, 18%, 59%);
+    --font-color-title: white;
+    --soft-red: hsl(345, 95%, 68%);
+}
+html{
+    font-size: 36px;
+    font-family: var(--font);
+    color: var(--font-color);
+    background: url(../img/bg-stars.svg), linear-gradient(to bottom, #191a24, #261e2f);
+}   
+.container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    margin-top: 2.5rem;
+    color: var(--font-color-title);
+}
+footer {
+    padding-top: 7%;
+    background-image: url(../img/pattern-hills.svg);
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.svg:hover {
+    fill: var(--soft-red);
+}
