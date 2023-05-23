@@ -8,7 +8,7 @@ html{
     font-size: 36px;
     font-family: var(--font);
     color: var(--font-color);
-    background: url(../img/bg-stars.svg),  linear-gradient(#191a24, #261e2f);
+    background: url(../img/bg-stars.svg), linear-gradient(#191a24, #261e2f);
 }   
 .container{
     text-align: center;
