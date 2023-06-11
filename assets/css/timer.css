@@ -28,3 +28,24 @@
     font-weight: bold;
     letter-spacing: 0.2rem;
 }
+@media screen and (min-width: 375px) { 
+    .timer  {
+        padding: 4rem 0rem;
+        margin-top: rem;
+        margin-bottom: 0rem;
+    }
+    .box {
+        width: 130px;
+        height: 55px;
+    }
+    .cont {
+        font-size: 2.3rem;
+        padding-top: 0.4rem;
+        font-weight: 400;
+    }
+    .legend {
+        font-size: 0.3rem;
+    }
+
+
+}

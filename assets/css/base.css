@@ -52,3 +52,20 @@ footer {
 .svg:hover {
     fill: var(--soft-red);
 }
+@media screen and (min-width: 375px) { 
+    .title {
+        margin-top: 4rem;
+        font-size: 24px;
+    }
+    .top {
+        margin-left: 0.1px;
+    }
+    .bottom{
+        margin-left: 123px;
+    }
+    .timer__img{
+        width: 0.3rem;
+        position: absolute;
+        margin-top: 1.4rem;
+    }
+}
