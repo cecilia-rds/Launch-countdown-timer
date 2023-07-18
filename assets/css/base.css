@@ -54,7 +54,7 @@ footer {
 }
 @media screen and (min-width: 375px) { 
     .title {
-        margin-top: 4rem;
+        padding-top: 2rem;
         font-size: 24px;
     }
     .top {
