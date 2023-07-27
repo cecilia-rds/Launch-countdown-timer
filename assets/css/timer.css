@@ -5,18 +5,16 @@
 }
 .timer__imgs {
     display: flex;
-    opacity: 0.4;
+
 }
 .timer__img{
     width: 0.3rem;
     position: absolute;
     margin-top: 1.3rem;
-}
-.timer__img--left {
-
+    opacity: 0.3;
 }
 .timer__img--right{
-    margin-left: 6.3%;
+    margin-left: 123px;
 }
 .box {
     border-radius: 0.3rem;
@@ -57,10 +55,7 @@
         margin-top: 1.3rem;
     }
     .timer__img--right {
-        margin-left: 0.1px;
-    }
-    .timer__img--left {
-        margin-left: 26%;
+        margin-left: 3.3rem;
     }
 }
 @media screen and (max-width: 518px) { 
@@ -71,9 +66,6 @@
     }
     .legend {
         font-size: 0.3rem;
-    }
-    .timer__img--left {
-        margin-left: 0.1px;
     }
     .timer__img--right{
         margin-left: 123px;
