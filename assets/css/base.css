@@ -8,11 +8,17 @@ html{
     font-size: 36px;
     font-family: var(--font);
     color: var(--font-color);
-    background: url(../img/bg-stars.svg), linear-gradient(#191a24, #261e2f);
+    background-image:
+        url("../img/bg-stars.svg"), 
+        url("../img/pattern-hills.svg"), linear-gradient(#191a24, #261e2f);
+    background-size: 100%;
+    background-position: top, bottom;
+    background-repeat: no-repeat, no-repeat;
+
 }   
 .container{
     text-align: center;
-    min-height: 90vh
+    min-height: 95vh;
 }
 .title {
     font-weight: 700;
@@ -21,12 +27,10 @@ html{
     color: var(--font-color-title);
 }
 footer {
-    background-image: url(../img/pattern-hills.svg);
-    bottom: 0;
-    height: 100px;    
     text-align: center;
-    position: absolute;
     width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 .social {
     display: flex;
@@ -36,13 +40,10 @@ footer {
 .svg:hover {
     fill: var(--soft-red);
 }
-@media screen and (max-width: 375px) { 
+@media screen and (max-width: 280px) { 
     .title {
-        padding-top: 1rem;
+        padding-top: 0rem;
         font-size: 24px;
-    }
-    footer {
-        position: relative;
-       
+        margin: 1rem;
     }
 }
