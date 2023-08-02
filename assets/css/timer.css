@@ -33,7 +33,7 @@
 }
 @media screen and (min-width: 375px) { 
     .timer  {
-        padding: 4rem 0rem;
+        padding: 4% 0%;
         margin-bottom: 0rem;
     }
     .box {
@@ -42,7 +42,7 @@
     }
     .cont {
         font-size: 2.3rem;
-        padding-top: 0.4rem;
+        padding-top: 0.6rem;
         font-weight: 400;
     }
     .legend {
