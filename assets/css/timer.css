@@ -1,7 +1,10 @@
 .timer {
     display: inline-block;
     padding: 8% 1%;
-    margin-bottom: 2rem;
+    margin: 2rem 0.3rem;
+}
+.timer__imgs {
+    opacity: 0.4;
 }
 .box {
     border-radius: 0.3rem;
@@ -31,7 +34,6 @@
 @media screen and (min-width: 375px) { 
     .timer  {
         padding: 4rem 0rem;
-        margin-top: rem;
         margin-bottom: 0rem;
     }
     .box {
