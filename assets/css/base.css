@@ -18,12 +18,12 @@ html{
 }   
 .container{
     text-align: center;
-    min-height: 95vh;
+    min-height: 100vh;
 }
 .title {
     font-weight: 700;
     letter-spacing: 0.2rem;
-    margin-top: 2rem;
+    padding-top: 1.5rem;
     color: var(--font-color-title);
 }
 footer {
