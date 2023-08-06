@@ -1,17 +1,16 @@
 .timer {
     display: inline-block;
     padding: 8% 1%;
-    margin: 2rem 0.3rem;
+    margin: 1rem 0.3rem;
 }
 .timer__imgs {
     display: flex;
-
 }
 .timer__img{
     width: 0.3rem;
     position: absolute;
     margin-top: 1.3rem;
-    opacity: 0.3;
+    opacity: 0.4;
 }
 .timer__img--right{
     margin-left: 123px;
@@ -48,8 +47,7 @@
         padding: 0% 0%;
     }
     .timer {
-        padding: 0%;
-        margin: 8%;
+        padding: 0%; 
     }
     .timer__img {
         margin-top: 1.3rem;
@@ -58,23 +56,20 @@
         margin-left: 3.3rem;
     }
 }
-@media screen and (max-width: 518px) { 
-    .container__timer {
-        width: 80vw;
-        margin: 0 auto;
-        padding: 0% 0%;
+@media screen and (max-width: 540px) {
+    .timer {
+        padding-top: 0%;
+        margin: 1rem 0.7rem;
     }
-    .legend {
-        font-size: 0.3rem;
+}
+@media screen and (max-width: 370px) {
+    .timer {
+        margin: 1rem 0.3rem;
     }
-    .timer__img--right{
-        margin-left: 123px;
+}
+@media screen and (max-width: 280px) {
+    .timer {
+        padding-top: 0%;
+        margin: 1% 1%;
     }
-    .timer__img{
-        width: 0.3rem;
-        position: absolute;
-        margin-top: 1.4rem;
-    }
-
-
 }
