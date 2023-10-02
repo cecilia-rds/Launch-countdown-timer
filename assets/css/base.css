@@ -19,6 +19,7 @@ html{
 .container{
     text-align: center;
     min-height: 100vh;
+    overflow: hidden;
 }
 .title {
     font-weight: 700;
