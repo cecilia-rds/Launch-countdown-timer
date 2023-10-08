@@ -20,8 +20,6 @@
 </p>
 
 
-
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -33,13 +31,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-
+Esse projeto foi inpirado no layout
+<a href="https://www.frontendmentor.io/challenges/launch-countdown-timer-N0XkGfyz-"> Launch countdown timer</a> do FrontEnd Mentor.
+A página também está adaptada para variados tamanhos de tela. 
 
 
 ## 🌏 Deploy
 
-https://cecilia-rds.github.io/Launch-countdown-timer
 
+Clique <a href="https://cecilia-rds.github.io/Launch-countdown-timer/">aqui</a> para visualizar o projeto.
 
 
 ## :memo: Licença
