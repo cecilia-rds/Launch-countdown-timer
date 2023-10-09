@@ -1,7 +1,7 @@
 <h1 align="center">Launch countdown timer</h1>
 
 <p align="center"> 
- Status do projeto:  :warning: (Em desenvolvimento)
+ Status do projeto: :heavy_check_mark: (Concluido)
 </p>
 
 
